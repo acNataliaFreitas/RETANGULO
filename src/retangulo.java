@@ -24,6 +24,7 @@ public class retangulo {
 		while(altura< 0.0) {
 			System.out.println("O valor deve ser positivo. Tente novamente:");
 			altura=sc.nextDouble();
+		}
 		
 		
 		sc.close();
